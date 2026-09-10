@@ -1,8 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
-  text-align: center; /* Ortaya hizalama */
-  margin: 20px;
+  margin: 0;
+  height: 100vh;              /* Tam ekran yüksekliği */
+  display: flex;              /* Flexbox aç */
+  flex-direction: column;     /* Dikey hizalama */
+  justify-content: center;    /* Dikey ortalama */
+  align-items: center;        /* Yatay ortalama */
 }
 
 h1 {
@@ -18,8 +22,8 @@ h2 {
 }
 
 a {
-  display: block; /* Linkleri alt alta gösterir */
-  font-size: 20px; /* Link yazısı büyük */
+  display: block;
+  font-size: 20px;
   color: #0066cc;
   text-decoration: none;
   margin-bottom: 15px;
@@ -28,4 +32,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
