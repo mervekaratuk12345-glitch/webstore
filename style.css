@@ -7,7 +7,9 @@ body {
   flex-direction: column;     /* Dikey hizalama */
   justify-content: center;    /* Dikey ortalama */
   align-items: center;        /* Yatay ortalama */
+  text-align: center;         /* Yazıları ortala */
 }
+
 
 h1 {
   font-size: 40px; /* Başlık büyük */
