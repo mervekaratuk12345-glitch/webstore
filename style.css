@@ -1,48 +1,31 @@
 body {
-  background-color: #f0f8ff; /* Açık mavi arka plan */
   font-family: Arial, sans-serif;
-  text-align: center;
+  background: #f4f4f4;
+  text-align: center; /* Ortaya hizalama */
+  margin: 20px;
 }
 
 h1 {
-  color: darkblue;
-}
-
-button {
-  background-color: orange;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: red;
-}
-body {
-  background-color: white;
-  font-family: Arial, sans-serif;
-  margin: 40px;
-}
-
-h1 {
-  color: black;
-  text-align: center;
+  font-size: 40px; /* Başlık büyük */
+  color: #333;
+  margin-bottom: 30px;
 }
 
 h2 {
-  color: darkblue;
+  font-size: 28px; /* Alt başlıklar büyük */
+  color: #444;
   margin-top: 20px;
 }
 
 a {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: red;
+  display: block; /* Linkleri alt alta gösterir */
+  font-size: 20px; /* Link yazısı büyük */
+  color: #0066cc;
   text-decoration: none;
-  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
